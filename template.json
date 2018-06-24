@@ -1,5 +1,18 @@
 [
-
+  {
+    "type": "container",
+    "title": "Neo4J",
+    "description": "Neo4J database image",
+    "categories": ["Database"],
+    "platform": "linux",
+    "logo": "https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png",
+    "image": "neo4j:3.0",
+    "ports": [
+      "7474/tcp",
+      "7687/tcp"
+    ],
+    "volumes": ["$(pwd)/neo4j/data/log","$(pwd)/neo4j/logs"]
+  },
   {
     "type": "container",
     "title": "Ubuntu",
@@ -9,7 +22,7 @@
     "logo": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1489696218/ubuntu.jpg",
     "image": "ubuntu:18.04",
     "ports": [
-      "5000/tcp"
+      "22/tcp"
     ]
   },
 
