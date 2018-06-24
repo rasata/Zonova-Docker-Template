@@ -1,4 +1,18 @@
 [
+
+  {
+    "type": "container",
+    "title": "Ubuntu",
+    "description": "Ubuntu official image",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1489696218/ubuntu.jpg",
+    "image": "ubuntu:18.04",
+    "ports": [
+      "5000/tcp"
+    ]
+  },
+
   {
     "type": "container",
     "title": "Registry",
