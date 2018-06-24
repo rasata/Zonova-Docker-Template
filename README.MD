@@ -10,7 +10,8 @@ Lightning innovation with success is no more a dream for any company,  test it w
 
 
 #### Docker repository from Zonova
-![](https://site.zonova.fr/wp-content/uploads/2018/06/icon.zonova.server.portal-01-1.png =50x)
+<img data-canonical-src="https://site.zonova.fr/wp-content/uploads/2018/06/icon.zonova.server.portal-01-1.png" width="100"/>
+
 
 An awesome list of Docker image & repository create by Zonova Company
 
