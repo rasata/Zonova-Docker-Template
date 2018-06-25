@@ -1,6 +1,18 @@
 [
   {
     "type": "container",
+    "title": "HFSL",
+    "description": "PCSoft HFSQL Database",
+    "categories": ["Database"],
+    "platform": "linux",
+    "logo": "data:image/png;base64,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",
+    "image": "hfsql:latest",
+    "ports": [
+      "4900/tcp"
+    ]
+  },
+  {
+    "type": "container",
     "title": "Neo4J",
     "description": "Neo4J database image",
     "categories": ["Database"],
@@ -11,7 +23,7 @@
       "7474/tcp",
       "7687/tcp"
     ],
-    "volumes": ["$(pwd)/neo4j/data/log","$(pwd)/neo4j/logs"]
+    "volumes": ["/neo4j/data/log","/neo4j/logs"]
   },
   {
     "type": "container",
